@@ -790,4 +790,24 @@ function phoneticLookup(val) {
   }
   
   // Change this value to test
-  phoneticLookup("charlie");  
+  phoneticLookup("charlie");
+  function checkObj(obj, checkProp) {
+    // var obj = {
+    // gift: "pony",
+    // pet: "kitten",
+    // bed: "sleigh"
+    // };
+    if (obj.hasOwnProperty(checkProp)== true){
+      return obj[checkProp]
+    } else if (obj.hasOwnProperty(checkProp)!== true) {
+      return "Not Found"
+    } else{
+      return "Change Me!"
+    }
+    return checkProp
+    // return checkProp
+  
+   
+  
+    // Only change code above this line
+  }  
