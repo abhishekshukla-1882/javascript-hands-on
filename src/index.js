@@ -133,3 +133,5 @@ const wordBlanks = myNoun +" " + myVerb+" " + myAdjective+" " +myAdverb ; // Cha
 const myArray = ["peanut butter", 2, "bread"];
 // Only change code below this line
 const myArray = [["Bulls", 23], ["White Sox", 45]];
+const myArray = [50, 60, 70];
+var myData = myArray[0];
