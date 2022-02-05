@@ -312,4 +312,19 @@ function testStrict(val) {
   }
   
   // Change this value to test
-  testStrict(10);  
+  testStrict(10);
+//Practice comparing different values
+
+//The compareEquality function in the editor compares two values using the equality operator. Modify the function so that it returns the string Equal only when the values are strictly equal
+
+//solution
+
+// Setup
+function compareEquality(a, b) {
+    if (a === b) { // Change this line
+      return "Equal";
+    }
+    return "Not Equal";
+  }
+  
+  compareEquality(10, "10");  
