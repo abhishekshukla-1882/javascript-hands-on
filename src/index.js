@@ -327,4 +327,14 @@ function compareEquality(a, b) {
     return "Not Equal";
   }
   
-  compareEquality(10, "10");  
+  compareEquality(10, "10");
+// Setup
+function testNotEqual(val) {
+    if (val != 99) { // Change this line
+      return "Not Equal";
+    }
+    return "Equal";
+  }
+  
+  // Change this value to test
+  testNotEqual(10);  
