@@ -337,4 +337,19 @@ function testNotEqual(val) {
   }
   
   // Change this value to test
-  testNotEqual(10);  
+  testNotEqual(10);
+// Setup
+function testStrictNotEqual(val) {
+    // Only Change Code Below this Line
+  
+    if (val !== 17) {
+  
+    // Only Change Code Above this Line
+  
+      return "Not Equal";
+    }
+    return "Equal";
+  }
+  
+  // Change this value to test
+  testStrictNotEqual(10);  
