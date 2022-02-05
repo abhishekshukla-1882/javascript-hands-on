@@ -163,3 +163,4 @@ myArray.shift();
 myArray.unshift(["Paul", 35]);
 // console.log(d)
 // Only change code below this line
+const myList = [["Banana", 3], ["Apple", 4], ["Orange", 5], ["Peach", 6], ["Pineaple", 7]];
