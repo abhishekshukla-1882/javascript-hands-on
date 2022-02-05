@@ -268,4 +268,28 @@ function welcomeToBooleans() {
 return true; // Change this line
 
 // Only change code above this line
-}  
+
+}
+function ourTrueOrFalse(isItTrue) {
+    if (isItTrue) {
+    return "Yes, it's true";
+    }
+    return "No, it's false";
+    }
+    
+    // Setup
+    function trueOrFalse(myCondition) {
+    
+    // Only change code below this line.
+    if(myCondition) {
+    return "Yes, that was true";
+    }
+    return "No, that was false";
+    
+    // Only change code above this line.
+    
+    }
+    
+    // Change this value to test
+    trueOrFalse(5>2);
+    trueOrFalse(5<2);  
