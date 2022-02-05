@@ -84,3 +84,13 @@ myStr += "This is the second sentence.";
 // Only change code below this line
 const myName = "Abhishek Shukla";
 const myStr = "My name is " + myName + "and I am well!";
+// Change code below this line
+const someAdjective = "Something awsome feeling ";
+let myStr = "Learning to code is ";
+myStr += someAdjective;
+// Setup
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+// Only change code below this line
+lastNameLength = lastName.length;
