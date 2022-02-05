@@ -694,3 +694,20 @@ function abTest(a, b) {
   // Add/remove calls to test your function.
   // Note: Only the last will display
   cc(2); cc(3); cc(7); cc('K'); cc('A');
+
+// Example
+var ourDog = {
+    "name": "Camper",
+    "legs": 4,
+    "tails": 1,
+    "friends": ["everything!"]
+  };
+  
+  // Only change code below this line.
+  
+  var myDog = {
+    "name": "Lola",
+    "legs": 4,
+    "tails": 1,
+    "friends": ["Sam", "Sarah"]
+  };
